@@ -1,0 +1,15 @@
+﻿<Window x:Class="PlanProjekt.GradeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlanProjekt"
+        mc:Ignorable="d"
+        Title="GradeWindow" Height="450" Width="400">
+    <Grid>
+        <Label Name="gradeTest" Content="Label" HorizontalAlignment="Left" Margin="150,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.161,0.439" FontSize="36" FontFamily="Aria" Foreground="#FFDC0808" FontWeight="Bold"/>
+        <Label Name="gratz" Content="Conglaturations!" HorizontalAlignment="Left" Margin="40,50,0,0" VerticalAlignment="Top" Width="265" Height="40" FontFamily="Arial" FontSize="24" FontWeight="Bold" Background="White" Foreground="#FFAE1414"/>
+        <Label Name="gradeMessage" Content="Your grade for today is" HorizontalAlignment="Left" Margin="40,95,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.323,0.376" Width="330" FontFamily="Arial" FontSize="24"/>
+
+    </Grid>
+</Window>
